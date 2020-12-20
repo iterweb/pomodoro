@@ -90,7 +90,7 @@ class App(QWidget):
 
     def on_minimize(self):
         self.hide()
-        sleep(600)
+        sleep(300)
         self.show()
 
     def prog_hide(self):
